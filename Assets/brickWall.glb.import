@@ -11,8 +11,8 @@ dest_files=[ "res://.import/brickWall.glb-68d8ca90f85b88a940a5d28f8d5cd3f0.scn" 
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="RigidBody"
+nodes/root_name="brickWall"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
