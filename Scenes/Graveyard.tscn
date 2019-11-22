@@ -1,8 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Graves & Stuff/brickWall.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Graves & Stuff/ironFence.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Graves & Stuff/coffin.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Graves & Stuff/cross.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Witch.tscn" type="PackedScene" id=5]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 100, 100 )
@@ -53,43 +55,52 @@ light_energy = 6.98
 shadow_enabled = true
 shadow_color = Color( 0.392157, 0.164706, 0.164706, 1 )
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.814817, 0.579718, 0, -0.579718, 0.814817, 0, 1.88026, 2.23066 )
-current = true
-
 [node name="Walls" type="Node" parent="."]
 
 [node name="brickWall" parent="Walls" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -7 )
-
-[node name="brickWall5" parent="Walls" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -7 )
-
-[node name="brickWall4" parent="Walls" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7 )
-
-[node name="brickWall3" parent="Walls" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.09191 )
 
 [node name="brickWall2" parent="Walls" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -7 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2.09191 )
+
+[node name="brickWall4" parent="Walls" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2.09191 )
+
+[node name="brickWall5" parent="Walls" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2.09191 )
+
+[node name="brickWall6" parent="Walls" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2.09191 )
+
+[node name="brickWall7" parent="Walls" instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 3, 0, -1.09191 )
+
+[node name="brickWall8" parent="Walls" instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -4, 0, -1.09191 )
 
 [node name="Fences" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="ironFence" parent="Fences" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00222, 0, -7.02101 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2 )
 
 [node name="ironFence2" parent="Fences" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02498, 0, -7.02101 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2 )
 
 [node name="ironFence3" parent="Fences" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -3.92936, 0, -6.19956 )
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -4.03054, 0, -0.0953967 )
 
 [node name="ironFence4" parent="Fences" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00222, 0, -7.02101 )
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 2.92516, 0, -0.114393 )
 
-[node name="ironFence5" parent="Fences" instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 2.99174, 0, -6.1945 )
+[node name="Graves and Objects" type="Node" parent="."]
 
-[node name="coffin" parent="." instance=ExtResource( 3 )]
+[node name="coffin" parent="Graves and Objects" instance=ExtResource( 3 )]
+
+[node name="cross" parent="Graves and Objects" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.31022, 0, -0.452565 )
+
+[node name="cross2" parent="Graves and Objects" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.02362, 0, -0.452565 )
+
+[node name="Witch" parent="." instance=ExtResource( 5 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.5, 2.5 )

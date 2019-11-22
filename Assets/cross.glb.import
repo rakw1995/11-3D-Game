@@ -11,8 +11,8 @@ dest_files=[ "res://.import/cross.glb-83185c0620755ee1aa4b0cfd76d9ca65.scn" ]
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="RigidBody"
+nodes/root_name="cross"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
