@@ -11,8 +11,8 @@ dest_files=[ "res://.import/gravestoneCross.glb-d16e1cd66b9ac1f5a4063cd4923543bc
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="StaticBody"
+nodes/root_name="gravestoneCross"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
