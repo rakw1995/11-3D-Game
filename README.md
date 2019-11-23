@@ -5,8 +5,7 @@
 
 - Assets:
   - Graveyard set: Kenney.nl
-  - Witch: 
-  - Creatures:
+  - Creatures: Kenney.nl
   - Music:
   - Sound Effects:
   - Menu screen:
