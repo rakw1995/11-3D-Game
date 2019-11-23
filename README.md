@@ -5,8 +5,12 @@
 
 - Assets:
   - Graveyard set: Kenney.nl
-  - Witch: self made using blender
+  - Witch: 
   - Creatures:
+  - Music:
+  - Sound Effects:
+  - Menu screen:
+  - Fonts:
   
 
   
