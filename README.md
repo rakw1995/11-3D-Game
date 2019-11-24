@@ -11,6 +11,18 @@
   - Menu screen: designed by me in Adobe Photoshop
   - Fonts: dafont.com
   - Icon & Menu Ghosts: made by me in Adobe Illustrator
+  - Mouse: Kenney.nl, edited by me using Adobe Photoshop)
+  
+ * Creation Steps:
+  - MENU SCREEN: 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  
   
 
   
