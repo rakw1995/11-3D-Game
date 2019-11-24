@@ -6,10 +6,11 @@
 - Assets:
   - Graveyard set: Kenney.nl
   - Creatures: Kenney.nl
-  - Music:
-  - Sound Effects:
-  - Menu screen:
-  - Fonts:
+  - Music: https://opengameart.org/content/the-crypt
+  - Sound Effects: 
+  - Menu screen: designed by me in Adobe Photoshop
+  - Fonts: dafont.com
+  - Icon & Menu Ghosts: made by me in Adobe Illustrator
   
 
   
