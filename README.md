@@ -7,20 +7,26 @@
   - Graveyard set: Kenney.nl
   - Creatures: Kenney.nl
   - Music: https://opengameart.org/content/the-crypt
-  - Sound Effects: 
+  - Sound Effects: https://opengameart.org/content/catching-fire
   - Menu screen: designed by me in Adobe Photoshop
   - Fonts: dafont.com
   - Icon & Menu Ghosts: made by me in Adobe Illustrator
   - Mouse: Kenney.nl, edited by me using Adobe Photoshop)
   
  * Creation Steps:
-  - MENU SCREEN: 
+  - MENU SCREEN:
+    - background: texture rect
+    - ghosts: sprite > animation player > transform > change position
   - GRAVEYARD SCENE:
+    - *******
   - GAME OVER SCREEN:
   - FIREBALL:
+    - particles > process material > new particles material > imported kenney.nl fire/smoke
+    - attached a rigid body and collision shape to particle and then attached that to the witch to give the effect that she's holding it in her hand.
   - GHOSTS:
     - instanced ghosts as kinematic body so that they could move and interact with player
-    - added script that uses detect_radius to follow the player when in range.
+    - paths > path follow, added script
+    *****
   - PLAYER/CONTROLS: 
     - project settings > input map > added left, right, forward, and back movement controls that i referenced in script witch.gd to control movement with keys
     - unhandled input function added to script to deal with mouse movement connecting to camera (pivot node & child)
