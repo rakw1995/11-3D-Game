@@ -23,7 +23,7 @@
     - 
   - GAME OVER SCREEN:
   - FIREBALL:
-    -
+    - added a bullet script to the witch that creates bullets on mouse press and allows the sound to play.
     - particles > process material > new particles material > imported kenney.nl fire/smoke
     - attached a rigid body and collision shape to particle and then attached that to the witch to give the effect that she's holding it in her hand.
   - GHOSTS:
