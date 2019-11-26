@@ -22,6 +22,8 @@
   - GRAVEYARD SCENE:
     - 
   - GAME OVER SCREEN:
+    -
+    - See menu screen for details.
   - FIREBALL:
     - added a bullet script to the witch that creates bullets on mouse press and allows the sound to play.
     - particles > process material > new particles material > imported kenney.nl fire/smoke
