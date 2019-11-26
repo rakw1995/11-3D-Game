@@ -15,7 +15,6 @@
   - Mouse: Kenney.nl, edited by me using Adobe Photoshop)
   *********
  * Creation Steps:
-  -
   - MENU SCREEN:
     -
     - background: texture rect
