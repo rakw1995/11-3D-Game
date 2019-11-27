@@ -1,0 +1,51 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/Fonts/NIGHTOFTERROR.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/Restart.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Fonts/DRIPPINGCOOL.tres" type="DynamicFont" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -554.0
+margin_top = -398.0
+margin_right = 1757.0
+margin_bottom = 1104.0
+color = Color( 0.168627, 0.0980392, 0.188235, 1 )
+
+[node name="Restart" type="Button" parent="."]
+margin_left = 348.678
+margin_top = 261.508
+margin_right = 670.678
+margin_bottom = 323.508
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/disabled = SubResource( 4 )
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.407843, 0.0117647, 0.552941, 1 )
+custom_colors/font_color_hover = Color( 0.411765, 0.309804, 0.490196, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+text = "RESTART?"
+flat = true
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 307.894
+margin_top = 216.423
+margin_right = 700.894
+margin_bottom = 272.423
+custom_fonts/font = ExtResource( 3 )
+text = "GAME OVER"
+[connection signal="pressed" from="Restart" to="Restart" method="_on_Restart_pressed"]

@@ -11,8 +11,8 @@ dest_files=[ "res://.import/skeleton.glb-07288295551c4612b188bb4aa102b436.scn" ]
 
 [params]
 
-nodes/root_type="Spatial"
-nodes/root_name="Scene Root"
+nodes/root_type="KinematicBody"
+nodes/root_name="skeleton"
 nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0

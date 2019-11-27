@@ -1,0 +1,11 @@
+[gd_resource type="CanvasItemMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://Assets/gpu_noise_shaders/classic_perlin4d.tres" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/offset = null
+shader_param/scale = null
+
+[resource]
+next_pass = SubResource( 1 )
