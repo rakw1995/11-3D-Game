@@ -19,8 +19,6 @@
     -
     - background: texture rect
     - ghosts: sprite > animation player > transform > change position
-  - GRAVEYARD SCENE:
-    - 
   - GAME OVER SCREEN:
     -
     - See menu screen for details.
